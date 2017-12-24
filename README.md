@@ -1,2 +1,2 @@
 # TopJob_Final
-A website that finds jobs for under-graduated students.
+A website that finds job for under-graduated students.
