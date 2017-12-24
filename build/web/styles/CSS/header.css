@@ -1,0 +1,118 @@
+.header
+            {
+                /*position: fixed;*/
+                width: 100%;
+                height: 100px;
+                /*background-color: lightgrey;*/
+            }
+
+            .header-contents
+            {
+                max-width: 100%;
+                position: center;
+                border: 1px solid black;
+            }
+
+            .logo
+            {
+                float: left;
+                margin-top: 15px;
+            }
+
+            .nav
+            {
+                float: right;
+                margin-right: 10px;
+                margin-top: 39px;
+                list-style: none;
+
+            }
+
+            .nav__items
+            {
+                cursor: pointer; /*Dùng để biến đổi trỏ chuột khi di vào*/
+                text-decoration: none; /*tắt gạch chân của link text*/
+                color: black;
+                font-size: 25px;
+                text-transform: uppercase;
+            }
+
+            .nav__itemsred
+            {
+                cursor: pointer; /*Dùng để biến đổi trỏ chuột khi di vào*/
+                text-decoration: none; /*tắt gạch chân của link text*/
+                color: #ff6600;
+                font-size: 25px;
+                text-transform: uppercase;
+            }
+
+            .nav__items:hover
+            {
+                color:#ff6600;
+                background-color: transparent !important; /*Thêm vào để né bootstrap*/
+                padding: 0px 0px 0px 0px !important;
+            }
+
+            .nav__itembox:hover
+            {
+                transform: scale(1.2,1.2); 
+            }
+
+            .nav__itembox
+            {
+                display: inline-block !important; /*Thêm vào để né bootstrap*/
+                text-align: center;
+                border: 1px solid black;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            @media only screen and (min-width: 970px)
+            {
+                .nav_replace
+                {
+                    display: none;
+                }
+            }
+            @media only screen and (max-width: 969px)
+            {
+                .nav
+                {
+                    display: none;
+                }
+                .nav_replace
+                {
+                    list-style: none;
+                }
+                .nav__itemboxnew:hover
+                {
+                    transform: scale(1.2,1.2); 
+                }
+
+                .nav__itemboxnew
+                {
+                    width: 60%;
+                    text-align: center;
+                    border: 1px solid black;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .nav__itemsnew
+                {
+                    cursor: pointer; /*Dùng để biến đổi trỏ chuột khi di vào*/
+                    text-decoration: none; /*tắt gạch chân của link text*/
+                    color: black;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                }
+
+                .nav__itemsrednew
+                {
+                    cursor: pointer; /*Dùng để biến đổi trỏ chuột khi di vào*/
+                    text-decoration: none; /*tắt gạch chân của link text*/
+                    color: #ff6600;
+                    font-size: 35px;
+                    text-transform: uppercase;
+                }
+            }
