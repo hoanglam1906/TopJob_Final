@@ -35,21 +35,23 @@
                 </nav>
             </div>
         </section>
-        
+
         <form action="StuProServlet" method="post">
-            <input type="hidden" name="action" value="ok">
-            <label>Full name</label>
-            <input type="text" name="name" value="<c:out value='${student.name}'/>" required><br>
-            <label>School</label>
-            <input type="text" name="school" value="<c:out value='${student.school}'/>" required><br>
-            <input type="checkbox" name="skill" <c:if test="${student.skill1==1}"> checked
-                   </c:if> value="skill1">Skill 1<br>
-            <input type="checkbox" name="skill" <c:if test="${student.skill2==1}"> checked
-                   </c:if> value="skill2">Skill 2<br>
-            <input type="checkbox" name="skill" <c:if test="${student.skill3==1}"> checked
-                   </c:if> value="skill3">Skill 3<br>
-            
-            <input type="submit" value="Save">
+            <div class="container">
+                <input type="hidden" name="action" value="ok">
+                <label>Full name</label>
+                <input type="text" name="name" value="<c:out value='${student.name}'/>" required><br>
+                <label>School</label>
+                <input type="text" name="school" value="<c:out value='${student.school}'/>" required><br>
+                <input type="checkbox" name="skill" <c:if test="${student.skill1==1}"> checked
+                       </c:if> value="skill1">Skill 1<br>
+                <input type="checkbox" name="skill" <c:if test="${student.skill2==1}"> checked
+                       </c:if> value="skill2">Skill 2<br>
+                <input type="checkbox" name="skill" <c:if test="${student.skill3==1}"> checked
+                       </c:if> value="skill3">Skill 3<br>
+
+                <input type="submit" value="Save">
+            </div>
         </form>
     </body>
 </html>

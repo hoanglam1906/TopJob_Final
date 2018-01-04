@@ -29,14 +29,21 @@
                 </nav>
             </div>
         </section>
-        
+        <div class="nav_replace">
+            <li class="nav__itemboxnew"> <a class="nav__itemsnew" href="index.html">Home</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsnew" href="About.html">About Us</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsrednew" href="Login.html">Login</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsnew" href="Signup.html">Signup</a> </li>
+        </div>
         <form action="EmProServlet">
-            <input type="hidden" name="action" value="ok">
-            <label>Full name</label>
+            <div class="container">
+                <input type="hidden" name="action" value="ok">
+            <label><b>Full name<b></label>
             <input type="text" name="name" required>
-            <label>Company</label>
+            <label><b>Company<b></label>
             <input type="text" name="company" required>
             <input type="submit" value="Save">
+            </div>
         </form>
         
     </body>

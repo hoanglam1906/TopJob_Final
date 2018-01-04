@@ -1,7 +1,44 @@
+
+input
+{
+
+    user-select: text;
+    background-color: white;
+    cursor: auto;
+}
 body
-            {
-                margin: 0px 0px 0px 0px;
-                background-color: white;
-            }
-            
-        
+{
+    margin: 0px 0px 0px 0px;
+    background-color: white;
+}
+
+
+form 
+{
+    border-top:1px solid #ccc;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.container {
+    padding: 16px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+input[type=submit]{
+    background-color: #ff6600;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
