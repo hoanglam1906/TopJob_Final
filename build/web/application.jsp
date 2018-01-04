@@ -11,10 +11,33 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Application</title>
+        <link rel="stylesheet" type="text/css" href="styles/CSS/header.css">
+        <link rel="stylesheet" type="text/css" href="styles/CSS/employer.css">
+        <link rel="stylesheet" type="text/css" href="styles/CSS/job.css">
     </head>
     <body>
-        <label>Job's title: </label>
-        <label>${title}"</label>
+        <section class="header">
+            <div class header-contents>
+                <a class="logo" href="index.html">
+                    <img src="styles/Images/logo_small.png">
+                </a>
+
+                <nav class="nav">
+                    <li class="nav__itembox"> <a class="nav__items" href="Employer.jsp">Profile</a> </li>
+                    <li class="nav__itembox"> <a class="nav__itemsred" href="job.jsp">Jobs</a> </li>	
+                    <li class="nav__itembox"> <a class="nav__items" href="index.html">Signout</a> </li>
+                </nav>
+            </div>
+        </section>
+        <div class="nav_replace">
+            <li class="nav__itemboxnew"> <a class="nav__items" href="Employer.jsp">Profile</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsred" href="job.jsp">Jobs</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__items" href="index.html">Signout</a> </li>
+            
+        </div>
+        <form></form>
+        <label><b>Job's title: <b></label>
+        <label><b>${title}<b></label>
         <table border="2">
             <thead>
                 <tr>

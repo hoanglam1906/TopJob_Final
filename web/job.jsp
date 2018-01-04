@@ -13,6 +13,7 @@
         <link rel="stylesheet" type="text/css" href="styles/CSS/header.css">
         <link rel="stylesheet" type="text/css" href="styles/CSS/employer.css">
         <link rel="stylesheet" type="text/css" href="styles/CSS/newcss.css">
+        <link rel="stylesheet" type="text/css" href="styles/CSS/job.css">
         <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
         <!-- <meta http-equiv="refresh" content="3" > -->
         <link rel="icon" href="styles/Images/logo.png">
@@ -39,6 +40,7 @@
         </section>
         <div id="post" class="post">
             <form action="ManJobServlet" method="post">
+                <div class="container">
                 <input type="hidden" name="action" value="add">
                 <label>Title</label>
                 <input type="text" name="title" required><br>
@@ -51,10 +53,15 @@
                 <input type="date" name="expiry" required>
                 <button type="button" onclick="document.getElementById('post').style.display = 'none'" class="cancelbtn">Cancel</button>
                 <input type="submit" value="OK">
+                </div>
+                    
             </form>
         </div>
-        <button onclick="document.getElementById('post').style.display = 'block'">Post a job</button>
+        <form></form>
+        <div class="container">
+                    <button onclick="document.getElementById('post').style.display = 'block'">Post a job</button>
 
+        </div>
         <table border="2">
             <thead>
                 <tr>
