@@ -10,6 +10,7 @@ body
 {
     margin: 0px 0px 0px 0px;
     background-color: white;
+    font-size: 25px;
 }
 
 
@@ -41,4 +42,7 @@ input[type=submit]{
     border: none;
     cursor: pointer;
     width: 100%;
+}
+input[type=submit]:hover{
+    opacity: 0.8;
 }

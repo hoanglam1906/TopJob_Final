@@ -31,6 +31,11 @@
                 </nav>
             </div>
         </section>
+        <div class="nav_replace">
+            <li class="nav__itemboxnew"> <a class="nav__itemsnew" href="Student.jsp">Profile</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsrednew" href="FindJob.jsp">Find Jobs</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsnew" href="index.html">Signout</a> </li>
+        </div>
         <form></form>
         <table border="2" id="tb">
             <tr>

@@ -91,6 +91,11 @@ public final class job_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                </nav>\r\n");
       out.write("            </div>\r\n");
       out.write("        </section>\r\n");
+      out.write("        <div class=\"nav_replace\">\r\n");
+      out.write("            <li class=\"nav__itemboxnew\"> <a class=\"nav__itemsnew\" href=\"Employer.jsp\">Profile</a> </li>\r\n");
+      out.write("            <li class=\"nav__itemboxnew\"> <a class=\"nav__itemsrednew\" href=\"job.jsp\">Jobs</a> </li>\r\n");
+      out.write("            <li class=\"nav__itemboxnew\"> <a class=\"nav__itemsnew\" href=\"index.html\">Signout</a> </li>\r\n");
+      out.write("        </div>\r\n");
       out.write("        <div id=\"post\" class=\"post\">\r\n");
       out.write("            <form action=\"ManJobServlet\" method=\"post\">\r\n");
       out.write("                <div class=\"container\">\r\n");

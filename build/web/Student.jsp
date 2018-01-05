@@ -35,7 +35,11 @@
                 </nav>
             </div>
         </section>
-
+        <div class="nav_replace">
+            <li class="nav__itemboxnew"> <a class="nav__itemsrednew" href="Student.jsp">Profile</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsnew" href="FindJob.jsp">Find Jobs</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsnew" href="index.html">Signout</a> </li>
+        </div>
         <form action="StuProServlet" method="post">
             <div class="container">
                 <input type="hidden" name="action" value="ok">

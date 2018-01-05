@@ -36,14 +36,20 @@
                 </nav>
             </div>
         </section>
-        
+        <div class="nav_replace">
+            <li class="nav__itemboxnew"> <a class="nav__itemsrednew" href="Employer.jsp">Profile</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsnew" href="job.jsp">Jobs</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsnew" href="index.html">Signout</a> </li>
+        </div>
         <form action="EmProServlet" method="post">
+            <div class="container">
             <input type="hidden" name="action" value="ok">
             <label>Full name</label>
             <input type="text" name="name" value="<c:out value='${employer.name}'/>" required>
             <label>Company</label>
             <input type="text" name="company" value="<c:out value='${employer.company}'/>" required>
             <input type="submit" value="Save">
+            </div>
         </form>
     
     </body>

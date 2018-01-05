@@ -30,12 +30,13 @@
             </div>
         </section>
         <div class="nav_replace">
-            <li class="nav__itemboxnew"> <a class="nav__items" href="Employer.jsp">Profile</a> </li>
-            <li class="nav__itemboxnew"> <a class="nav__itemsred" href="job.jsp">Jobs</a> </li>
-            <li class="nav__itemboxnew"> <a class="nav__items" href="index.html">Signout</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsnew" href="Employer.jsp">Profile</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsrednew" href="job.jsp">Jobs</a> </li>
+            <li class="nav__itemboxnew"> <a class="nav__itemsnew" href="index.html">Signout</a> </li>
             
         </div>
         <form></form>
+        <div class="container"></div>
         <label><b>Job's title: <b></label>
         <label><b>${title}<b></label>
         <table border="2">
