@@ -1,0 +1,33 @@
+form 
+{
+    border-top:1px solid #ccc;
+}
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+}
+input[type=submit]{
+    background-color: #ff6600;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+body{
+    font-size: 25px;
+}
+button:hover {
+    opacity: 0.8;
+    
+}
+input[type=submit]:hover{
+    opacity: 0.8;
+}

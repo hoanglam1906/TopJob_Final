@@ -9,12 +9,29 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles/CSS/header.css">
         <link rel="stylesheet" type="text/css" href="styles/CSS/newcss.css">
+        <link rel="stylesheet" type="text/css" href="styles/CSS/findjob.css">
+        <link rel="stylesheet" type="text/css" href="styles/CSS/job.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
         <title>JSP Page</title>
     </head>
     <body>
+        <section class="header">
+            <div class header-contents>
+                <a class="logo" href="index.html">
+                    <img src="styles/Images/logo_small.png">
+                </a>
+
+                <nav class="nav">
+                    <li class="nav__itembox"> <a class="nav__items" href="Student.jsp">Profile</a> </li>
+                    <li class="nav__itembox"> <a class="nav__itemsred" href="FindJob.jsp">Find Jobs</a> </li>			
+                    <li class="nav__itembox"> <a class="nav__items" href="index.html">Signout</a> </li>
+                </nav>
+            </div>
+        </section>
+        <form></form>
         <table border="2" id="tb">
             <tr>
                 <th>Title</th>
